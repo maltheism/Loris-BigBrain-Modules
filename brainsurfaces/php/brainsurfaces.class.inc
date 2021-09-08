@@ -42,4 +42,19 @@ class Brainsurfaces extends \NDB_Page
         return true;
     }
 
+//    function getCSSDependencies()
+//    {
+//        $factory = \NDB_Factory::singleton();
+//        $baseurl = $factory->settings()->getBaseURL();
+//
+//        $files = array(
+//            $baseurl . "/bootstrap/css/bootstrap.min.css",
+//            $baseurl . "/bootstrap/css/custom-css.css",
+//            $baseurl . "/js/jquery/datepicker/datepicker.css",
+//            $baseurl . '/vendor/sweetalert/sweetalert.css',
+//            $baseurl . '/main.css',
+//        );
+//        return $files;
+//    }
+
 }

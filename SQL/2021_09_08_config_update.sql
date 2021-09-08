@@ -1,4 +1,4 @@
-UPDATE Config SET Value = 'The BigBrain dataset' WHERE ConfigID = '3';
+UPDATE Config SET Value = 'The BigBrain dataset' WHERE ConfigID = '2';
 UPDATE Config SET Value = '<p><b>The BigBrain dataset</b> is the result of a collaborative effort between the teams of <a href="http://www.fz-juelich.de/portal/EN/AboutUs/Institutes_Facilities/Institutes/InstituteNeuroscienceMedicine/_node.html" target="_blank">Dr. Katrin Amunts and Dr. Karl Zilles</a> (<a href="http://www.fz-juelich.de/portal/EN/Home/home_node.html" target="_blank">Forschungszentrum Jülich)</a> and <a href="http://mcin.ca/about-mcin/alans-cv/" target="_blank">Dr. Alan Evans</a> (<a href="https://www.mcgill.ca/neuro/" target="_blank">Montreal Neurological Institute</a>). For more information please visit the BigBrain Project website [<a href="https://bigbrainproject.org" target="_blank">https://bigbrainproject.org</a>]</p>
 
 <h3 class="title">BigBrain Release 2015</h3>
@@ -51,4 +51,4 @@ A human-readable summary of the license can be found <a href="http://creativecom
 
 <!--- 2019-12-05 CR: complicated link - caching rather than deleting ###
 To view BigBrain online use <a href="https://www.humanbrainproject.eu/en/explore-the-brain/" target="_blank">Human Brain Project''s</a> neuroglancer viewer. <a href="https://neuroglancer.humanbrainproject.org/#!{''layers'':{''BigBrain'':{''type'':''image''_''source'':''precomputed://https://neuroglancer.humanbrainproject.org/precomputed/BigBrainRelease.2015/8bit''_''transform'':[[1_0_0_-70666600]_[0_1_0_-70000000]_[0_0_1_-58777700]_[0_0_0_1]]}_''classif'':{''type'':''segmentation''_''source'':''precomputed://https://neuroglancer.humanbrainproject.org/precomputed/BigBrainRelease.2015/classif''_''segments'':[''0''_''100''_''200'']_''transform'':[[1_0_0_-70666600]_[0_1_0_-72910000]_[0_0_1_-58777700]_[0_0_0_1]]}}_''navigation'':{''pose'':{''position'':{''voxelSize'':[21166.666015625_20000_21166.666015625]_''voxelCoordinates'':[-30.226560592651367_243.21095275878906_484.2291259765625]}}_''zoomFactor'':563818.3562426177}_''perspectiveOrientation'':[0.3140767216682434_-0.7418519854545593_0.4988985061645508_-0.3195493221282959]_''perspectiveZoom'':1922235.5293810747}" target="_blank">Click here</a> to launch the browser.
----> ' WHERE ConfigID = '42';
+---> ' WHERE ConfigID = '47';
