@@ -28,7 +28,7 @@ namespace LORIS\brainsurfaces;
 
 class Brainsurfaces extends \NDB_Page
 {
-//    public $skipTemplate = true;
+    public $skipTemplate = true;
 
     /**
      * Determine whether user should be granted access.
@@ -42,19 +42,22 @@ class Brainsurfaces extends \NDB_Page
         return true;
     }
 
-//    function getCSSDependencies()
-//    {
-//        $factory = \NDB_Factory::singleton();
-//        $baseurl = $factory->settings()->getBaseURL();
-//
-//        $files = array(
-//            $baseurl . "/bootstrap/css/bootstrap.min.css",
-//            $baseurl . "/bootstrap/css/custom-css.css",
-//            $baseurl . "/js/jquery/datepicker/datepicker.css",
-//            $baseurl . '/vendor/sweetalert/sweetalert.css',
-//            $baseurl . '/main.css',
-//        );
-//        return $files;
-//    }
+    /**
+     * Gathers JS dependencies and merge them with the parent
+     *
+     * @return array of javascript to be inserted
+     */
+    function getJSDependencies()
+    {
+        $factory = \NDB_Factory::singleton();
+        $baseURL = $factory->settings()->getBaseURL();
+        $deps    = parent::getJSDependencies();
+        return array_merge(
+            $deps,
+            array(
+                $baseURL . '/brainsurfaces/js/index.js',
+            )
+        );
+    }
 
 }

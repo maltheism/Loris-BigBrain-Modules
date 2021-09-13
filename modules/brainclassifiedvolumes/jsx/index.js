@@ -62,20 +62,27 @@ const BrainClassifiedVolumes = () => {
       show: true,
       filter: {
         name: 'Encoding',
-        type: 'text',
+        type: 'select',
+        options: {
+          '8-bit unsigned byte': '8-bit unsigned byte',
+        },
       },
     },
     {
       label: 'Year',
-      show: true,
+      show: false,
       filter: {
         name: 'Year',
-        type: 'text',
+        type: 'select',
+        options: {
+          '2015': '2015',
+          '2013': '2013',
+        },
       },
     },
     {
       label: 'Comments',
-      show: true,
+      show: false,
       filter: {
         name: 'Comments',
         type: 'text',
@@ -83,7 +90,7 @@ const BrainClassifiedVolumes = () => {
     },
     {
       label: 'View',
-      show: true,
+      show: false,
       filter: {
         name: 'View',
         type: 'text',
