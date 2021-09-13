@@ -5,6 +5,9 @@ const entry = {
   'brainsurfaces': [
     'index',
   ],
+  'brainvolumes': [
+    'index',
+  ],
 };
 
 module.exports = entry;
