@@ -28,6 +28,8 @@ namespace LORIS\brainclassifiedvolumes;
 
 class Brainclassifiedvolumes extends \NDB_Page
 {
+    public $skipTemplate = true;
+
     /**
      * Determine whether user should be granted access.
      *
@@ -38,6 +40,24 @@ class Brainclassifiedvolumes extends \NDB_Page
     function _hasAccess(\User $user) : bool
     {
         return true;
+    }
+
+    /**
+     * Gathers JS dependencies and merge them with the parent
+     *
+     * @return array of javascript to be inserted
+     */
+    function getJSDependencies()
+    {
+        $factory = \NDB_Factory::singleton();
+        $baseURL = $factory->settings()->getBaseURL();
+        $deps    = parent::getJSDependencies();
+        return array_merge(
+            $deps,
+            array(
+                $baseURL . '/brainclassifiedvolumes/js/index.js',
+            )
+        );
     }
 
 }
