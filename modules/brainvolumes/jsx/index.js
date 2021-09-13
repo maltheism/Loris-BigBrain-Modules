@@ -155,14 +155,21 @@ const BrainVolumes = () => {
    * @return {*} a formatted table cell for a given column
    */
   const formatColumn = (column, cell, rowData, rowHeaders) => {
-    let reactElement;
+    let reactElement = <td>{cell}</td>;
     switch (column) {
-      case 'PSCID':
-        const url = `${this.props.baseURL}/${rowData.DCCID}/`;
-        reactElement = <td><a href={url}>{rowData.PSCID}</a></td>;
+      case 'Minc':
+        if (cell !== '') {
+          reactElement = <td><a href={cell} target='_blank'>download</a></td>;
+        }
+        break;
+      case 'NIFTI':
+        if (cell !== '' && cell !== 'File too large') {
+          reactElement = <td><a href={cell} target='_blank'>download</a></td>;
+        }
+        console.log(rowData);
+        console.log(rowHeaders);
         break;
       default:
-        reactElement = <td>{cell}</td>;
         break;
     }
     return reactElement;
