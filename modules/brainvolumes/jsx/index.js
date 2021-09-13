@@ -169,12 +169,15 @@ const BrainVolumes = () => {
   };
 
   return (
-    <FilterableDataTable
-      name={'filterableBrainVolumes'}
-      data={data}
-      fields={fields}
-      getFormattedCell={formatColumn}
-    />
+    <>
+      <h1>3D Volume Data Release</h1>
+      <FilterableDataTable
+        name={'filterableBrainVolumes'}
+        data={data}
+        fields={fields}
+        getFormattedCell={formatColumn}
+      />
+    </>
   );
 };
 BrainVolumes.defaultProps = {

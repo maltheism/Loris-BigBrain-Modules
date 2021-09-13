@@ -128,12 +128,15 @@ const BrainSurfaces = () => {
   };
 
   return (
-    <FilterableDataTable
-      name={'filterableBrainSurfaces'}
-      data={data}
-      fields={fields}
-      getFormattedCell={formatColumn}
-    />
+    <>
+      <h1>3D Surface Data Release</h1>
+      <FilterableDataTable
+        name={'filterableBrainSurfaces'}
+        data={data}
+        fields={fields}
+        getFormattedCell={formatColumn}
+      />
+    </>
   );
 };
 BrainSurfaces.defaultProps = {
