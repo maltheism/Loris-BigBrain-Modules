@@ -174,8 +174,6 @@ const BrainVolumes = () => {
             NIFTI ({rowData['NIFTIFileSize']})
           </a></td>;
         }
-        console.log(rowData);
-        console.log(rowHeaders);
         break;
       case 'Comments':
         if (rowData['CommentsLink']) {
@@ -187,8 +185,6 @@ const BrainVolumes = () => {
             </td>
           );
         }
-        console.log(rowData);
-        console.log(rowHeaders);
         break;
       default:
         break;

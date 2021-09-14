@@ -140,8 +140,6 @@ const BrainClassifiedVolumes = () => {
             NIFTI ({rowData['NIFTIFileSize']})
           </a></td>;
         }
-        console.log(rowData);
-        console.log(rowHeaders);
         break;
       default:
         break;

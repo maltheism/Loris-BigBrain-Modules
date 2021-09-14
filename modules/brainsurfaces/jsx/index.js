@@ -129,8 +129,6 @@ const BrainSurfaces = () => {
             GIFTI ({rowData['GIFTIFileSize']})
           </a></td>;
         }
-        console.log(rowData);
-        console.log(rowHeaders);
         break;
       default:
         break;
