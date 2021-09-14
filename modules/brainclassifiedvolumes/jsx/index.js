@@ -11,29 +11,29 @@ const BrainClassifiedVolumes = () => {
   const data = [
     // 2015 -------------------/
     // MNI ICBM 152 Space (ICBM 2009b Nonlinear Symmetric)
-    ['Full Classified Volume, 100um', '100um isotropic (1970x2330x1890)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/full_cls_100um_2009b_sym.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/nii/full_cls_100um_2009b_sym.nii.gz'],
-    ['Full Classified Volume, 200um', '200um isotropic (985x1165x945)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/full_cls_200um_2009b_sym.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/nii/full_cls_200um_2009b_sym.nii.gz'],
-    ['Full Classified Volume, 300um', '300um isotropic (657x777x630)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/full_cls_300um_2009b_sym.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/nii/full_cls_300um_2009b_sym.nii.gz'],
-    ['Full Classified Volume, 400um', '400um isotropic (493x583x473)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/full_cls_400um_2009b_sym.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/nii/full_cls_400um_2009b_sym.nii.gz'],
-    ['Full Classified Volume, 1000um', '1000um isotropic (TODO)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/full_cls_1000um_2009b_sym.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/nii/full_cls_1000um_2009b_sym.nii.gz'],
+    ['Full Classified Volume, 100um', '100um isotropic (1970x2330x1890)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/full_cls_100um_2009b_sym.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/nii/full_cls_100um_2009b_sym.nii.gz', '163 MB', '141 MB'],
+    ['Full Classified Volume, 200um', '200um isotropic (985x1165x945)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/full_cls_200um_2009b_sym.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/nii/full_cls_200um_2009b_sym.nii.gz', '28.1 MB', '24.9 MB'],
+    ['Full Classified Volume, 300um', '300um isotropic (657x777x630)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/full_cls_300um_2009b_sym.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/nii/full_cls_300um_2009b_sym.nii.gz', '10 MB', '8.8 MB'],
+    ['Full Classified Volume, 400um', '400um isotropic (493x583x473)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/full_cls_400um_2009b_sym.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/nii/full_cls_400um_2009b_sym.nii.gz', '4.7 MB', '4.2 MB'],
+    ['Full Classified Volume, 1000um', '1000um isotropic (TODO)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/full_cls_1000um_2009b_sym.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/MNI-ICBM152_Space/nii/full_cls_1000um_2009b_sym.nii.gz', '474 kB', '406 kB'],
     // Histological Space
-    ['Full Classified Volume, 100um', '100um isotropic (1970x2330x1890)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/full_cls_100um.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/nii/full_cls_100um.nii.gz'],
-    ['Full Classified Volume, 200um', '200um isotropic (985x1165x945)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/full_cls_200um.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/nii/full_cls_200um.nii.gz'],
-    ['Full Classified Volume, 300um', '300um isotropic (657x777x630)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/full_cls_300um.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/nii/full_cls_300um.nii.gz'],
-    ['Full Classified Volume, 400um', '400um isotropic (493x583x473)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/full_cls_400um.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/nii/full_cls_400um.nii.gz'],
-    ['Full Classified Volume, 400um', '1000um isotropic (493x583x473)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/full_cls_1000um.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/nii/full_cls_1000um.nii.gz'],
+    ['Full Classified Volume, 100um', '100um isotropic (1970x2330x1890)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/full_cls_100um.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/nii/full_cls_100um.nii.gz', '77 MB', '65.4 MB'],
+    ['Full Classified Volume, 200um', '200um isotropic (985x1165x945)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/full_cls_200um.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/nii/full_cls_200um.nii.gz', '13.2 MB', '11.6 MB'],
+    ['Full Classified Volume, 300um', '300um isotropic (657x777x630)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/full_cls_300um.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/nii/full_cls_300um.nii.gz', '4.7 MB', '4.1 MB'],
+    ['Full Classified Volume, 400um', '400um isotropic (493x583x473)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/full_cls_400um.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/nii/full_cls_400um.nii.gz', '2.3 MB', '2 MB'],
+    ['Full Classified Volume, 400um', '1000um isotropic (493x583x473)', '8-bit unsigned byte', '2015', '', '', 'ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/full_cls_1000um.mnc', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Classified_Volumes/Histological_Space/nii/full_cls_1000um.nii.gz', '239 kB', '197 kB'],
     // 2013 ---------------------/
     // MNI ICBM 152 Space (ICBM 2009b Nonlinear Symmetric)
-    ['Full Classified Volume, 100um', '100um isotropic (1970x2330x1890)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_surface.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_100um_2009b_sym.mnc', 'File too large'],
-    ['Full Classified Volume, 200um', '200um isotropic (985x1165x945)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_200um_2009b_sym.mnc', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_200um_2009b_sym.nii.gz'],
-    ['Full Classified Volume, 300um', '300um isotropic (657x777x630)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_300um_2009b_sym.mnc', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_300um_2009b_sym.nii.gz'],
-    ['Full Classified Volume, 400um', '400um isotropic (493x583x473)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_400um_2009b_sym.mnc', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_400um_2009b_sym.nii.gz'],
+    ['Full Classified Volume, 100um', '100um isotropic (1970x2330x1890)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_surface.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_100um_2009b_sym.mnc', 'File too large', '171 MB', ''],
+    ['Full Classified Volume, 200um', '200um isotropic (985x1165x945)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_200um_2009b_sym.mnc', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_200um_2009b_sym.nii.gz', '30 MB', '26 MB'],
+    ['Full Classified Volume, 300um', '300um isotropic (657x777x630)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_300um_2009b_sym.mnc', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_300um_2009b_sym.nii.gz', '10 MB', '9 MB'],
+    ['Full Classified Volume, 400um', '400um isotropic (493x583x473)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_400um_2009b_sym.mnc', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_400um_2009b_sym.nii.gz', '5 MB', '4 MB'],
     // 7T syn24 template in MNI Space (No Data)
     // Histological Space
-    ['Full Classified Volume, 100um', '100um isotropic (1970x2330x1890)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_surface.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_100um.mnc', 'File too large'],
-    ['Full Classified Volume, 200um', '200um isotropic (985x1165x945)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_200um.mnc', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_200um.nii.gz'],
-    ['Full Classified Volume, 300um', '300um isotropic (657x777x630)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_300um.mnc', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_300um.nii.gz'],
-    ['Full Classified Volume, 400um', '400um isotropic (493x583x473)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_400um.mnc', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_400um.nii.gz'],
+    ['Full Classified Volume, 100um', '100um isotropic (1970x2330x1890)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_surface.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_100um.mnc', 'File too large', '78 MB', ''],
+    ['Full Classified Volume, 200um', '200um isotropic (985x1165x945)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_200um.mnc', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_200um.nii.gz', '13 MB', '12 MB'],
+    ['Full Classified Volume, 300um', '300um isotropic (657x777x630)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_300um.mnc', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_300um.nii.gz', '5 MB', '4 MB'],
+    ['Full Classified Volume, 400um', '400um isotropic (493x583x473)', '8-bit unsigned byte', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_400um.mnc', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainclassifiedvolumes&get_classifiedvolumes.php&script=get_classifiedvolumes.php&release=2013&file=full_cls_400um.nii.gz', '2 MB', '2 MB'],
   ];
   // fields configured for filter.
   const fields = [
@@ -82,7 +82,7 @@ const BrainClassifiedVolumes = () => {
     },
     {
       label: 'Comments',
-      show: false,
+      show: true,
       filter: {
         name: 'Comments',
         type: 'text',
@@ -99,18 +99,18 @@ const BrainClassifiedVolumes = () => {
     {
       label: 'Minc',
       show: true,
-      filter: {
-        name: 'Minc',
-        type: 'text',
-      },
     },
     {
       label: 'NIFTI',
       show: true,
-      filter: {
-        name: 'NIFTI',
-        type: 'text',
-      },
+    },
+    {
+      label: 'MincFileSize',
+      show: false,
+    },
+    {
+      label: 'NIFTIFileSize',
+      show: false,
     },
   ];
 
@@ -129,12 +129,16 @@ const BrainClassifiedVolumes = () => {
     switch (column) {
       case 'Minc':
         if (cell !== '') {
-          reactElement = <td><a href={cell} target='_blank'>download</a></td>;
+          reactElement = <td><a href={cell} target='_blank'>
+            Minc ({rowData['MincFileSize']})
+          </a></td>;
         }
         break;
       case 'NIFTI':
         if (cell !== '' && cell !== 'File too large') {
-          reactElement = <td><a href={cell} target='_blank'>download</a></td>;
+          reactElement = <td><a href={cell} target='_blank'>
+            NIFTI ({rowData['NIFTIFileSize']})
+          </a></td>;
         }
         console.log(rowData);
         console.log(rowHeaders);

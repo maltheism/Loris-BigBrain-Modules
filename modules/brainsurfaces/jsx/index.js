@@ -11,27 +11,27 @@ const BrainSurfaces = () => {
   const data = [
     // 2015 -------------------/
     // MNI ICBM 152 Space (ICBM 2009b Nonlinear Symmetric)
-    ['Grey Left', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/gray_left_327680_2009b_sym.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/gray_left_327680_2009b_sym.surf.gii'],
-    ['Grey Right', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/gray_right_327680_2009b_sym.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/gray_right_327680_2009b_sym.surf.gii'],
-    ['White Left', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/white_left_327680_2009b_sym.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/white_left_327680_2009b_sym.surf.gii'],
-    ['White Right', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/white_right_327680_2009b_sym.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/white_right_327680_2009b_sym.surf.gii'],
+    ['Grey Left', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/gray_left_327680_2009b_sym.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/gray_left_327680_2009b_sym.surf.gii', '17 MB', '7.5 MB'],
+    ['Grey Right', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/gray_right_327680_2009b_sym.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/gray_right_327680_2009b_sym.surf.gii', '16.9 MB', '7.5 MB'],
+    ['White Left', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/white_left_327680_2009b_sym.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/white_left_327680_2009b_sym.surf.gii', '17 MB', '7.5 MB'],
+    ['White Right', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/white_right_327680_2009b_sym.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/white_right_327680_2009b_sym.surf.gii', '16.9 MB', '7.5 MB'],
     // Histological Space
-    ['Grey Left', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/gray_left_327680.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/gray_left_327680.surf.gii'],
-    ['Grey Right', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/gray_right_327680.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/gray_right_327680.surf.gii'],
-    ['White Left', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/white_left_327680.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/white_left_327680.surf.gii'],
-    ['White Right', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/white_right_327680.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/white_right_327680.surf.gii'],
+    ['Grey Left', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/gray_left_327680.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/gray_left_327680.surf.gii', '17 MB', '7.5 MB'],
+    ['Grey Right', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/gray_right_327680.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/gray_right_327680.surf.gii', '16.9 MB', '7.5 MB'],
+    ['White Left', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/white_left_327680.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/white_left_327680.surf.gii', '17 MB', '7.5 MB'],
+    ['White Right', '327680 Triangles', '2015', '', '', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/MNI-obj/white_right_327680.obj', 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/BigBrainRelease.2015/3D_Surfaces/Apr7_2016/gii/white_right_327680.surf.gii', '16.8 MB', '7.5 MB'],
     // 2013 -------------------/
     // MNI ICBM 152 Space (ICBM 2009b Nonlinear Symmetric)
-    ['Grey Left', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surface.php&script=get_surfaces.php&release=2013&file=gray_left_327680_2009b_sym.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surface.php&script=get_surfaces.php&release=2013&file=gray_left_327680_2009b_sym.gii'],
-    ['Grey Right', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=gray_right_327680_2009b_sym.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=gray_right_327680_2009b_sym.gii'],
-    ['White Left', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_left_327680_2009b_sym.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_left_327680_2009b_sym.gii'],
-    ['White Right', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_right_327680_2009b_sym.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_right_327680_2009b_sym.gii'],
+    ['Grey Left', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surface.php&script=get_surfaces.php&release=2013&file=gray_left_327680_2009b_sym.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surface.php&script=get_surfaces.php&release=2013&file=gray_left_327680_2009b_sym.gii', '18 MB', '8 MB'],
+    ['Grey Right', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=gray_right_327680_2009b_sym.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=gray_right_327680_2009b_sym.gii', '18 MB', '8 MB'],
+    ['White Left', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_left_327680_2009b_sym.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_left_327680_2009b_sym.gii', '18 MB', '8 MB'],
+    ['White Right', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_right_327680_2009b_sym.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_right_327680_2009b_sym.gii', '18 MB', '8 MB'],
     // 7T syn24 template in MNI Space (No Data)
     // Histological Space
-    ['Grey Left', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surface.php&script=get_surfaces.php&release=2013&file=gray_left_327680.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surface.php&script=get_surfaces.php&release=2013&file=gray_left_327680.gii'],
-    ['Grey Right', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=gray_right_327680.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=gray_right_327680.gii'],
-    ['White Left', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_left_327680.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_left_327680.gii'],
-    ['White Right', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_left_327680.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_left_327680.gii'],
+    ['Grey Left', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surface.php&script=get_surfaces.php&release=2013&file=gray_left_327680.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surface.php&script=get_surfaces.php&release=2013&file=gray_left_327680.gii', '18 MB', '8 MB'],
+    ['Grey Right', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=gray_right_327680.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=gray_right_327680.gii', '18 MB', '8 MB'],
+    ['White Left', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_left_327680.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_left_327680.gii', '18 MB', '8 MB'],
+    ['White Right', '327680 Triangles', '2013', '', '', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_left_327680.obj', 'https://bigbrain.loris.ca/AjaxHelper.php?Module=brainsurfaces&get_surfaces.php&script=get_surfaces.php&release=2013&file=white_left_327680.gii', '18 MB', '8 MB'],
   ];
   // fields configured for filter.
   const fields = [
@@ -71,7 +71,7 @@ const BrainSurfaces = () => {
     },
     {
       label: 'Comments',
-      show: false,
+      show: true,
       filter: {
         name: 'Comments',
         type: 'text',
@@ -88,18 +88,18 @@ const BrainSurfaces = () => {
     {
       label: 'Obj',
       show: true,
-      filter: {
-        name: 'Obj',
-        type: 'text',
-      },
     },
     {
       label: 'GIFTI',
       show: true,
-      filter: {
-        name: 'GIFTI',
-        type: 'text',
-      },
+    },
+    {
+      label: 'ObjFileSize',
+      show: false,
+    },
+    {
+      label: 'GIFTIFileSize',
+      show: false,
     },
   ];
 
@@ -118,12 +118,16 @@ const BrainSurfaces = () => {
     switch (column) {
       case 'Obj':
         if (cell !== '') {
-          reactElement = <td><a href={cell} target='_blank'>download</a></td>;
+          reactElement = <td><a href={cell} target='_blank'>
+            Obj ({rowData['ObjFileSize']})
+          </a></td>;
         }
         break;
       case 'GIFTI':
         if (cell !== '' & cell !== 'File too large') {
-          reactElement = <td><a href={cell} target='_blank'>download</a></td>;
+          reactElement = <td><a href={cell} target='_blank'>
+            GIFTI ({rowData['GIFTIFileSize']})
+          </a></td>;
         }
         console.log(rowData);
         console.log(rowHeaders);
