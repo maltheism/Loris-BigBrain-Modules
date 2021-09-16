@@ -50,23 +50,13 @@
 
 <div style="position: absolute; top: 140px; width: 100%; margin: 0 auto;">
     <form action="{$action}" method="post">
-        <input name="username" value="admin" type="hidden">
-        <input name="password" type="hidden" value="a1123581321">
+        <input name="username" value="alizee.wickenheiser@mcgill.ca" type="hidden">
+        <input name="password" type="hidden" value="Yy9JgW2AC*_KaXmYyMyiyLfr">
         <center>
             <input class="btn btn-primary" name="login" type="submit" value="&nbsp;&nbsp; &nbsp;&nbsp; ENTER &nbsp;&nbsp; &nbsp;&nbsp; ">
         </center>
     </form>
 </div>
-
-{*<div style="position: absolute; top: 140px; width: 100%; margin: 0 auto;">*}
-{*    <form action="{$action}" method="post">*}
-{*        <input name="username" value="alizee.wickenheiser@mcgill.ca" type="hidden">*}
-{*        <input name="password" type="hidden" value="Yy9JgW2AC*_KaXmYyMyiyLfr">*}
-{*        <center>*}
-{*            <input class="btn btn-primary" name="login" type="submit" value="&nbsp;&nbsp; &nbsp;&nbsp; ENTER &nbsp;&nbsp; &nbsp;&nbsp; ">*}
-{*        </center>*}
-{*    </form>*}
-{*</div>*}
 
 <div class="footernew navbar-bottom">
     <div align="center" colspan="1" style="color:#064785">

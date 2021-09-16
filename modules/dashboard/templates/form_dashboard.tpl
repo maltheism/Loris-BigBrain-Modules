@@ -49,4 +49,17 @@
     A human-readable summary of the license can be found <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">here</a>.
     </p>
 
+    <div colspan="1" style="color:#808080; text-align: center">
+        <button style="background-color: #0b4681; color: white;" href="https://bigbrain-ftp.loris.ca/bigbrain-ftp/License.txt" class="btn btn-primary btn-small" style="color:white">
+            Download License (txt)
+        </button>
+    </div>
+    <div align="center" colspan="1" style="color:#808080">
+        <br>
+        Contact: <a href="mailto:info@bigbrainproject.org" style="color:#064785">
+             info@bigbrainproject.org
+        </a>
+        <br>
+    </div>
+
 </div>
