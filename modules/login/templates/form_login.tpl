@@ -12,9 +12,14 @@
         background-image: url('images/bigbrain_cover_Feb_26_2015.jpg');
     }
     .footer {
+        visibility: hidden;
+    }
+    .footernew {
+        bottom: 0;
+        width: 100%;
+        position: fixed;
         font-size: 15pt;
         text-align: center;
-        padding-bottom: 40px;
     }
     .btn-primary {
         color: #fff;
@@ -63,3 +68,23 @@
 {*    </form>*}
 {*</div>*}
 
+<div class="footernew navbar-bottom">
+    <div align="center" colspan="1" style="color:#064785">
+                Visit <a href="http://bigbrainproject.org" style="color:#064785; target=" _blank"=""><b>BigBrainProject.org</b></a> for more information
+    </div>
+    <div align="center" colspan="1" style="color:#808080">
+        <b>Supported Browsers:</b> Mozilla Firefox, Google Chrome.
+    </div>
+    <div align="center" colspan="1">
+        <a href="https://bigbrain-ftp.loris.ca/bigbrain-ftp/"><b>Raw data also available using Anonymous FTP:</b> View and connect with FTP client.</a>
+    </div>
+    <div align="center" colspan="1" style="color:#808080">
+       <a href="http://LORIS.CA" style="color:#064785" target="_blank">Powered by LORIS</a> © 2021 All rights reserved.  <a href="http://mcin.ca" target="_blank">Created by MCIN</a>
+    </div>
+    <div align="center" colspan="1" style="color:blue">
+<br>
+<!--
+        <a href="http://mcin.ca" style="color: blue;" target="_blank">Created by MCIN</a>
+--->
+    </div>
+</div>
