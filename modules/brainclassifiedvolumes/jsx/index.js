@@ -153,8 +153,10 @@ const BrainClassifiedVolumes = () => {
   useEffect(() => {
     const url = new URL(window.location.href);
     const release = url.searchParams.get('release');
-    const elements = document.getElementsByName('Year');
-    elements[0].value = release;
+    if (release) {
+      const elements = document.getElementsByName('Year');
+      elements[0].value = release;
+    }
   }, []);
 
   return (
