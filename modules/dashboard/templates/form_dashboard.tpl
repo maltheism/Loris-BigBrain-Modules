@@ -50,7 +50,7 @@
     </p>
 
     <div colspan="1" style="color:#808080; text-align: center">
-        <button style="background-color: #0b4681; color: white;" onclick="location.href = 'https://bigbrain-ftp.loris.ca/bigbrain-ftp/License.txt';" class="btn btn-primary btn-small" style="color:white">
+        <button style="background-color: #0b4681; color: white;" onclick="window.open('https://bigbrain-ftp.loris.ca/bigbrain-ftp/License.txt', '_blank');" class="btn btn-primary btn-small" style="color:white">
             Download License (txt)
         </button>
     </div>
