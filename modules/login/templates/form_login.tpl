@@ -50,8 +50,8 @@
 
 <div style="position: absolute; top: 140px; width: 100%; margin: 0 auto;">
     <form action="{$action}" method="post">
-        <input name="username" value="open_user" type="hidden">
-        <input name="password" type="hidden" value="Yy9JgW2AC*_KaXmYyMyiyLfr">
+        <input name="username" value="admin" type="hidden">
+        <input name="password" type="hidden" value="a1123581321">
         <center>
             <input class="btn btn-primary" name="login" type="submit" value="&nbsp;&nbsp; &nbsp;&nbsp; ENTER &nbsp;&nbsp; &nbsp;&nbsp; ">
         </center>
