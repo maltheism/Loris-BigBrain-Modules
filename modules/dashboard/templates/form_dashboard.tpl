@@ -10,7 +10,6 @@
     </li>
     <li><a href="brainclassifiedvolumes"><b>Download 3D Classified Volumes</b></a>: Full volumes with voxels classified as grey / white matter, and CSF.  Available in MINC and NIfTI.
     </li>
-        </br>
     <li><b><a href="ftp://bigbrain.loris.ca/BigBrainRelease.2015/2D_Final_Sections/">DeepZoom File Format:</a></b> These are the full, highest resolution (20 μm) png images in DZI format (ImageMagick DeepZoom) and can be viewed with OpenSeadragon (web-based).
     </li>
     <li><b><a href="ftp://bigbrain.loris.ca/BigBrainRelease.2015/3D_Blocks/">3D Blocks:</a></b> These are blocks at high resolution (40 μm) in histological space that together compose the entire BigBrain (with white background and a few mm
