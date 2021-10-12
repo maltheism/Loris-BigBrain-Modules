@@ -39,6 +39,16 @@ class Module extends \Module
     /**
      * {@inheritDoc}
      *
+     * @return string The menu category for this module
+     */
+    public function getMenuCategory() : string
+    {
+        return "Sources";
+    }
+
+    /**
+     * {@inheritDoc}
+     *
      * @return string The human readable name for this module
      */
     public function getLongName() : string

@@ -49,7 +49,7 @@ class Module extends \Module
      */
     public function getMenuCategory() : string
     {
-        return "Tools";
+        return "Sources";
     }
 
     /**
