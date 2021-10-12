@@ -43,7 +43,7 @@ class Module extends \Module
      */
     public function getMenuCategory() : string
     {
-        return "BigBrain";
+        return "";
     }
 
     /**
