@@ -117,10 +117,6 @@ const BrainClassifiedVolumes = () => {
     {
       label: 'View',
       show: false,
-      filter: {
-        name: 'View',
-        type: 'text',
-      },
     },
     {
       label: 'Minc',
